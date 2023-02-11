@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.navbar {
+    display: flex;
+    padding: 1.5rem;
+    background-color: #000000;
+    justify-content: space-between;
+}
+
+.right {
+    display: flex;
+    justify-content: space-between;
+    width: 15rem;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: large;
+}
+
+.container {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: goldenrod;
+}
+
+h1 {
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.card {
+    width: 23%;
+    padding: 1rem;
+    line-height: 1.6rem;
+    background-color: cornsilk;
+    margin: .5rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    outline: none;
+    cursor: pointer;
+}
+
+img {
+    width: 100%;
+    height: 12rem;
+    flex-basis: 30%;
+}
+
+.card:hover {
+    background-color: #d0c0f1;
+}
+
+.display-img {
+    display: none;
+    transition: .5s ease;
+}
+
+.brand-id {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 20%;
+}
+
+.section1 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    flex-basis: 50%;
+}
+
+.title {
+    flex-basis: 60%;
+    padding: .1rem;
+    font-weight: bolder;
+}
+
+.brand {
+    flex-basis: 40%;
+    padding: .1rem;
+    font-weight: bold;
+}
+
+.section2 {
+    color: gray;
+    font-size: .7rem;
+    flex-basis: 50%;
+}
+
+.description {
+    text-align: center;
+    font-size: .8rem;
+    line-height: 1rem;
+    flex-basis: 40%;
+    color: black;
+}
+
+.price-discount {
+    text-align: center;
+    line-height: 1.2rem;
+    padding: .8rem;
+    flex-basis: 20%;
+}
+
+.price {
+    color: green;
+    font-size: 1.1rem;
+}
+
+.discount {
+    color: green;
+    font-size: .9rem;
+}
+
+.rating-stock {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rating {
+    background-color: green;
+    border-radius: 1rem;
+    width: 4rem;
+    color: #ffffff;
+    text-align: center;
+    padding: .1rem;
+    font-size: 1rem;
+}
+
+.stock {
+    background-color: grey;
+    border-radius: 1rem;
+    width: 7rem;
+    text-align: center;
+    font-size: 1rem;
+    padding: .1rem;
+}
+
